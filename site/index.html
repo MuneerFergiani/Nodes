@@ -7,11 +7,11 @@
     <meta name="description" content="Nodes — a small game of connections. Capture, grow, and take the board." />
     <title>Nodes · A game of connections</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <script type="module" crossorigin src="./assets/game-Dz9K2pd9.js"></script>
+    <script type="module" crossorigin src="./assets/game-CfPoKhDF.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/expedition-C8l8654w.js">
-    <link rel="modulepreload" crossorigin href="./assets/model-CBmEFVFJ.js">
+    <link rel="modulepreload" crossorigin href="./assets/model-DknkYc6C.js">
     <link rel="modulepreload" crossorigin href="./assets/settings-ui-B-QIYTKb.js">
-    <link rel="stylesheet" crossorigin href="./assets/game-DGitSFmE.css">
+    <link rel="stylesheet" crossorigin href="./assets/game-PDORtiSW.css">
   </head>
   <body>
       <div id="splash" class="splash"><div class="splash-symbol"><i></i><i></i><i></i></div><h1>nodes<span>.</span></h1><p>A small game of connections.</p><div class="loading-line"><span></span></div><span class="splash-foot" id="loading-status">FINDING YOUR PLACE ON THE BOARD</span></div>
@@ -32,7 +32,7 @@
         <p id="online-match-status" class="hidden" role="status"></p>
         <section class="arena" aria-label="Game board">
           <div id="board" role="group" aria-label="Interactive node map. Drag through friendly nodes and release on a target to send from the group. Double-tap a friendly node to upgrade."></div>
-          <div id="board-message" class="sr-only" role="status">Select a teal node to get started.</div>
+          <div id="board-message" class="sr-only" role="status">Select a orange node to get started.</div>
 
         <section id="lesson-card" class="hidden" aria-live="polite"><div><small id="lesson-step"></small><h2 id="lesson-title"></h2><p id="lesson-prompt"></p></div><button id="lesson-next" class="primary-button hidden">Next lesson ↗</button><button id="lesson-exit" class="text-button">Main menu</button></section>
           <aside id="campaign-tip" class="hidden"><div><strong id="campaign-tip-title"></strong><p id="campaign-tip-copy"></p></div><button id="dismiss-campaign-tip" class="text-button" aria-label="Dismiss campaign tip">Got it</button></aside><div id="series-overlay" class="board-overlay hidden" aria-live="polite"><h2 id="series-title"></h2><p id="series-score"></p><p id="series-next"></p><button id="leave-series" class="text-button">Leave series</button></div><div id="pause-overlay" class="board-overlay hidden"><div class="overlay-mark">Ⅱ</div><h2>A moment to think.</h2><p id="pause-copy">Your game is paused.</p><button id="resume-button" class="primary-button">Back to the board <span>↗</span></button><button id="restart-button" class="text-button">Start a fresh round</button><button id="campaign-levels" class="text-button hidden">Campaign map</button><button id="pause-menu" class="text-button">Main menu</button></div>
@@ -40,7 +40,7 @@
         </section>
       </main>
 
-      <dialog id="help-dialog"><button id="close-help" class="icon-button close-dialog" aria-label="Close instructions">×</button><div class="eyebrow">A MINUTE TO LEARN</div><h2>Everything is<br />connected.</h2><ol><li><b>Make your move.</b><span>You are teal. Drag through several friendly nodes and release on a target to send the configured share from each (50% by default). Each drag starts a fresh selection. Releasing sends the order and clears the selection; releasing on empty space cancels it. Single taps do not select nodes.</span></li><li><b>Grow your corner.</b><span>Circles are barracks. In the campaign, squares produce slower, stronger Iron Guard and triangles shoot nearby armies without producing troops. Reinforce your towers. Move through your own nodes to reach further.</span></li><li><b>Build something bigger.</b><span>Double-tap a friendly node to upgrade. An upward-chevron badge means it is ready. The LV badge shows the level; the shape stays the same. Campaign barracks gain production and capacity, while tower upgrades increase range. Tap a building for details.</span></li></ol><button id="help-play" class="primary-button">Let’s make a connection <span>↗</span></button></dialog>
+      <dialog id="help-dialog"><button id="close-help" class="icon-button close-dialog" aria-label="Close instructions">×</button><div class="eyebrow">A MINUTE TO LEARN</div><h2>Everything is<br />connected.</h2><ol><li><b>Make your move.</b><span>You are teal. Drag through several friendly nodes and release on a target to send the configured share from each (50% by default). Each drag starts a fresh selection. Releasing sends the order and clears the selection; releasing on empty space cancels it. Single taps do not select nodes.</span></li><li><b>Grow your corner.</b><span>Circles are barracks. In the campaign, squares produce slower, stronger Iron Guard and triangles pulse against nearby armies and slowly produce troops. Reinforce your towers. Move through your own nodes to reach further.</span></li><li><b>Build something bigger.</b><span>Double-tap a friendly node to upgrade. An upward-chevron badge means it is ready. The LV badge shows the level; the shape stays the same. Campaign barracks gain production and capacity, while tower upgrades increase range and pulse speed. Tap a building for details.</span></li></ol><button id="help-play" class="primary-button">Let’s make a connection <span>↗</span></button></dialog>
     </div>
 
   </body>
